@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="KickOff">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>162</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-08-22 14:07:46 +0100</FirstRun>
+  <LastRun>2017-08-24 17:10:45 +0100</LastRun>
+  <TotalTimeOnSuccess>203.900000</TotalTimeOnSuccess>
+ </script>
+ <script name="Engine">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>184</NumberOfRuns>
+  <NumberOfFails>117</NumberOfFails>
+  <FirstRun>2017-08-21 16:24:57 +0100</FirstRun>
+  <LastRun>2017-08-25 10:08:02 +0100</LastRun>
+  <TotalTimeOnSuccess>52.604000</TotalTimeOnSuccess>
+ </script>
+ <script name="TC01/AW_StartApplication">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-08-22 14:46:41 +0100</FirstRun>
+  <LastRun>2017-08-23 16:31:14 +0100</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="TC01/AW_SelectAutoLogDatabase">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-08-22 14:44:07 +0100</FirstRun>
+  <LastRun>2017-08-22 14:44:07 +0100</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="InfoWords">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-08-23 16:59:40 +0100</FirstRun>
+  <LastRun>2017-08-23 16:59:40 +0100</LastRun>
+  <TotalTimeOnSuccess>0.410000</TotalTimeOnSuccess>
+ </script>
+</statistics>

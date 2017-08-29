@@ -1,0 +1,6 @@
+﻿2017-08-23 11:50:28.945 +0100	START		Running KickOff.script
+2017-08-23 11:50:29.123 +0100	Log		This will be the header of report with the title: [VenzTitle]	2	on_opentestreport	fReport.script
+2017-08-23 11:50:29.177 +0100	runwithnewresults		Engine.script (C:/AutoLog.suite/Results/Engine/20170823_115029.173/LogFile.txt)	42	on_kickoff	KickOff.script
+2017-08-23 11:50:29.512 +0100	Log		This will be the closing footer and summary with the some parameter passing through: [(file:"C:\EDF_eggPlant\AutoLog.xlsx", type:"excel", writable:"Yes")]	3	on_closetestreport	fReport.script
+2017-08-23 11:50:29.773 +0100	EndTestCase		(Duration:"0.819", Errors:"0", Exceptions:"0", StartTime:"2017-08-23 11:50:28 +0100", Successes:"2", TestCase:"KickOff.script", Warnings:"0")
+2017-08-23 11:50:29.797 +0100	SUCCESS		Execution Time 0:00:01 KickOff.script

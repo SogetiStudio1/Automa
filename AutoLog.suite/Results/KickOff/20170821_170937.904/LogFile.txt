@@ -1,0 +1,4 @@
+﻿2017-08-21 17:09:37.908 +0100	START		Running KickOff.script
+2017-08-21 17:09:38.058 +0100	runwithnewresults		Engine.script (C:/AutoLog.suite/Results/Engine/20170821_170938.055/LogFile.txt)	19	on_kickoff	KickOff.script
+2017-08-21 17:10:32.808 +0100	EndTestCase		(Duration:"54.897", Errors:"2", Exceptions:"0", StartTime:"2017-08-21 17:09:37 +0100", Successes:"0", TestCase:"KickOff.script", Warnings:"0")
+2017-08-21 17:10:32.812 +0100	ABORTED		Execution Time 0:00:55 KickOff.script

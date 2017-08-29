@@ -1,0 +1,45 @@
+﻿
+(** * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Script generated:  2017-08-24 16:56:27
+Captured on:  2017-08-24 16:55:43
+From server:  Admin
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+to CaptureTheScreenshot errorString, e
+
+	set filename to ErrorImage & "Screenshot" & count
+	
+	set tempFile to "/tmp" & filename
+	
+	CaptureScreen tempFile
+	
+	return filename
+	
+end CaptureTheScreenshot
+
+
+
+(*Function Screenshot errorString, e
+
+	if imagefound (5, ImageName)
+		
+		logsuccess "image is found" & it
+		
+	else 
+		
+		logwarning "eggPlant was unable to find image " & it
+		
+		//Take a screenshot of image not found
+		CaptureScreen (Name: "missingImage_"  & ".errorimage" & global errorindex, increment: yes)
+		
+		//To increment index of image found
+		put global errorindex + 1 into global errorindex
+		
+		Return it
+		
+		
+		log "Error:" & errorString, e
+		
+		exit all
+		
+end Screenshot*)

@@ -1,0 +1,6 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+KickOff,Success,162,1,2017-08-22 14:07:46 +0100,2017-08-24 17:10:45 +0100,0:00:01
+Engine,Failure,184,117,2017-08-21 16:24:57 +0100,2017-08-25 10:08:02 +0100,0:00:00
+TC01/AW_StartApplication,Failure,2,2,2017-08-22 14:46:41 +0100,2017-08-23 16:31:14 +0100,0:00:00
+TC01/AW_SelectAutoLogDatabase,Failure,1,1,2017-08-22 14:44:07 +0100,2017-08-22 14:44:07 +0100,0:00:00
+InfoWords,Success,1,0,2017-08-23 16:59:40 +0100,2017-08-23 16:59:40 +0100,0:00:00

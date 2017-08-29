@@ -1,0 +1,3 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-08-22 14:46:41.476 +0100,"Failure",0:00:00,1,0,0,"20170822_144641.476/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 16:31:14.878 +0100,"Failure",0:00:00,1,0,0,"20170823_163114.878/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0

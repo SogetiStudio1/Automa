@@ -1,0 +1,11 @@
+﻿2017-08-24 16:51:30.360 +0100	START		Running Engine.script	39	on_kickoff	KickOff.script
+2017-08-24 16:51:30.414 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-24 16:51:30.426 +0100	Log		Result2:arg0	18	on_engine	Engine.script
+2017-08-24 16:51:30.767 +0100	Log		Action [Start Application] completed.	82	on_entry	fReport.script
+2017-08-24 16:51:30.792 +0100	Log		Start Application	23	on_tc01_aw_startapplication	TC01/AW_StartApplication.script
+2017-08-24 16:51:31.068 +0100	Log		Action [Select AutoLog Database] completed.	82	on_entry	fReport.script
+2017-08-24 16:51:31.092 +0100	Log		Select AutoLog Database	38	on_tc01_aw_selectautologdatabase	TC01/AW_SelectAutoLogDatabase.script
+2017-08-24 16:51:31.231 +0100	Log		Action [Verify Homescreen] completed.	82	on_entry	fReport.script
+2017-08-24 16:51:31.255 +0100	Log		Verify Homescreen	17	on_tc01_aw_verifyhomescreen	TC01/AW_VerifyHomeScreen.script
+2017-08-24 16:51:31.411 +0100	EndTestCase		(Duration:"1.048", Errors:"1", Exceptions:"0", StartTime:"2017-08-24 16:51:30 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	39	on_kickoff	KickOff.script
+2017-08-24 16:51:31.536 +0100	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'capturethescreenshot' -- Execution Time 0:00:01 Engine.script	39	on_kickoff	KickOff.script

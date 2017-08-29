@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="AW_StartApplication.script" package="AutoLog.suite" timestamp="2017-08-22 14:46:41.476 +0100"
+ tests="1" successes="0" errors="1" time="0.581000">
+  <properties>
+   <property name="RunDate" value="2017-08-22 14:46:41.476 +0100"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="AW_StartApplication.script" assertions="1" successes="0" errors="1" time="0.576">
+  </testcase>
+ </testsuite>
+</testsuites>

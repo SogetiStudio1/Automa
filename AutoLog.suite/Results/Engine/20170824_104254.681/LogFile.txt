@@ -1,0 +1,11 @@
+﻿2017-08-24 10:42:54.687 +0100	START		Running Engine.script	38	on_kickoff	KickOff.script
+2017-08-24 10:42:54.732 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-24 10:42:54.753 +0100	Log		Result2:arg0	19	on_engine	Engine.script
+2017-08-24 10:42:55.024 +0100	Log		Action [Start Application] completed.	82	on_entry	fReport.script
+2017-08-24 10:42:55.047 +0100	Log		Start Application	22	on_tc01_aw_startapplication	TC01/AW_StartApplication.script
+2017-08-24 10:42:55.338 +0100	Log		Action [Select AutoLog Database] completed.	82	on_entry	fReport.script
+2017-08-24 10:42:55.363 +0100	Log		Select AutoLog Database	38	on_tc01_aw_selectautologdatabase	TC01/AW_SelectAutoLogDatabase.script
+2017-08-24 10:42:55.521 +0100	Log		Action [Verify Homescreen] completed.	82	on_entry	fReport.script
+2017-08-24 10:42:55.549 +0100	Log		Verify Homescreen	17	on_tc01_aw_verifyhomescreen	TC01/AW_VerifyHomeScreen.script
+2017-08-24 10:42:55.699 +0100	EndTestCase		(Duration:"1.009", Errors:"0", Exceptions:"0", StartTime:"2017-08-24 10:42:54 +0100", Successes:"1", TestCase:"Engine.script", Warnings:"0")	38	on_kickoff	KickOff.script
+2017-08-24 10:42:55.722 +0100	SUCCESS		Execution Time 0:00:01 Engine.script	38	on_kickoff	KickOff.script

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Engine.script" package="AutoLog.suite" timestamp="2017-08-22 14:40:52.598 +0100"
+ tests="1" successes="1" errors="9" time="1.166000">
+  <properties>
+   <property name="RunDate" value="2017-08-22 14:40:52.598 +0100"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Engine.script" assertions="10" successes="1" errors="9" time="1.158">
+    <failure type="LogError">Unknown action: arg0</failure>
+    <failure type="LogError">Unknown action: Subject</failure>
+    <failure type="LogError">Unknown action: Date</failure>
+    <failure type="LogError">Unknown action: Author</failure>
+    <failure type="LogError">Unknown action: Verification by</failure>
+    <failure type="LogError">Unknown action: Counted test steps</failure>
+    <failure type="LogError">Unknown action: Start Application</failure>
+    <failure type="LogError">Unknown action: Select AutoLog Database</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+﻿2017-08-23 11:58:11.595 +0100	START		Running Engine.script
+2017-08-23 11:58:11.700 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-23 11:58:11.725 +0100	Log		Result1:((Start Application,AutoLog,,,,,,,,,,,,,))	24	on_engine	Engine.script
+2017-08-23 11:58:12.071 +0100	EndTestCase		(Duration:"0.471", Errors:"1", Exceptions:"0", StartTime:"2017-08-23 11:58:11 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")
+2017-08-23 11:58:12.095 +0100	FAILURE		STFileException Attempt to access unopened file:  -- Execution Time 0:00:01 Engine.script

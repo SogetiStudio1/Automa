@@ -1,0 +1,4 @@
+﻿2017-08-21 16:24:57.527 +0100	START		Running Engine.script	13	on_kickoff	KickOff.script<SELECTION>
+2017-08-21 16:24:57.608 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-21 16:24:57.612 +0100	EndTestCase		(Duration:"0.081", Errors:"0", Exceptions:"0", StartTime:"2017-08-21 16:24:57 +0100", Successes:"1", TestCase:"Engine.script", Warnings:"0")	13	on_kickoff	KickOff.script<SELECTION>
+2017-08-21 16:24:57.644 +0100	SUCCESS		Execution Time 0:00:00 Engine.script	13	on_kickoff	KickOff.script<SELECTION>

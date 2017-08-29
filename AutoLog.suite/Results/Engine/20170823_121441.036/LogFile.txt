@@ -1,0 +1,9 @@
+﻿2017-08-23 12:14:41.041 +0100	START		Running Engine.script	42	on_kickoff	KickOff.script
+2017-08-23 12:14:41.086 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-23 12:14:41.110 +0100	Log		Result1:((Start Application,AutoLog,,,,,,,,,,,,,))	24	on_engine	Engine.script
+2017-08-23 12:14:41.242 +0100	Log		Action [AutoLog] completed.	82	on_entry	fReport.script
+2017-08-23 12:14:41.269 +0100	Log		AutoLog	20	on_tc01_aw_startapplication	TC01/AW_StartApplication.script
+2017-08-23 12:14:41.277 +0100	Log		Result2:AutoLog	32	on_engine	Engine.script
+2017-08-23 12:14:41.286 +0100	LogError		Unknown action: ((Start Application	63	on_engine	Engine.script
+2017-08-23 12:14:41.291 +0100	EndTestCase		(Duration:"0.247", Errors:"1", Exceptions:"0", StartTime:"2017-08-23 12:14:41 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	42	on_kickoff	KickOff.script
+2017-08-23 12:14:41.320 +0100	FAILURE		Script Error Number of Errors logged: 1 -- Execution Time 0:00:00 Engine.script	42	on_kickoff	KickOff.script

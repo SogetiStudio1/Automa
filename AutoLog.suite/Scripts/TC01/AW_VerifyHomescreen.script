@@ -1,0 +1,30 @@
+﻿put "incomplete" into Global sStatusAction
+fReport.Entry "AW", item 1 of item 20 of Global cellValue
+
+
+
+
+//Step 1: Take a screen shot of the top section of the application (station log details below might change so better to take focus on the top of the application)									
+
+
+
+//Step 2: Compare the actual screen shot with the expected screen shot and report the result									
+
+
+//Step 3: Include the Actual screenshot on the report if fails also include the Expected screenshot (for comparison reasons)									
+
+
+Log item 1 of item 20 of Global cellValue
+
+
+// Grab something frm the screen 
+put "AutoLog" into Global ActualArg
+
+if Global ActualArg = item 2 of item 20 of Global cellValue
+	fReport.Entry "PASS", "Actual: ["&Global ActualArg&"] as expected."
+	Else
+	fReport.Entry "FAIL", "Actual: ["&Global ActualArg&"] while we expected [" &  item 2 of item 20 of Global cellValue &"]"
+end if
+
+
+put "completed" into Global sStatusAction

@@ -1,0 +1,11 @@
+﻿2017-08-23 14:17:43.783 +0100	START		Running Engine.script	42	on_kickoff	KickOff.script
+2017-08-23 14:17:43.838 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-23 14:17:43.873 +0100	Log		Result1:(arg0,arg1,arg2,arg3,arg4,arg5)	23	on_engine	Engine.script
+2017-08-23 14:17:43.879 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:17:43.883 +0100	Log		Result3:	33	on_engine	Engine.script
+2017-08-23 14:17:43.893 +0100	LogError		Unknown action: arg0	82	on_engine	Engine.script
+2017-08-23 14:17:43.899 +0100	Log		Result1:(Reference,TS.01,,,,)	23	on_engine	Engine.script
+2017-08-23 14:17:43.902 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:17:43.907 +0100	Log		Result3:	33	on_engine	Engine.script
+2017-08-23 14:17:43.924 +0100	EndTestCase		(Duration:"0.136", Errors:"2", Exceptions:"0", StartTime:"2017-08-23 14:17:43 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	42	on_kickoff	KickOff.script
+2017-08-23 14:17:43.951 +0100	FAILURE		STUnknownMessage ERROR: No Such Command: 'iw_reference' -- Execution Time 0:00:00 Engine.script	42	on_kickoff	KickOff.script

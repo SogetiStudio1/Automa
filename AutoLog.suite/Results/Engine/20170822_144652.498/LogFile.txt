@@ -1,0 +1,19 @@
+﻿2017-08-22 14:46:52.505 +0100	START		Running Engine.script	17	on_kickoff	KickOff.script
+2017-08-22 14:46:52.567 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-22 14:46:52.586 +0100	LogError		Unknown action: arg0	41	on_engine	Engine.script
+2017-08-22 14:46:52.629 +0100	LogError		Unknown action: Subject	41	on_engine	Engine.script
+2017-08-22 14:46:52.643 +0100	LogError		Unknown action: Date	41	on_engine	Engine.script
+2017-08-22 14:46:52.667 +0100	LogError		Unknown action: Author	41	on_engine	Engine.script
+2017-08-22 14:46:52.681 +0100	LogError		Unknown action: Verification by	41	on_engine	Engine.script
+2017-08-22 14:46:52.694 +0100	LogError		Unknown action: Counted test steps	41	on_engine	Engine.script
+2017-08-22 14:46:53.042 +0100	Log		Action [Start Application] completed.	82	on_entry	fReport.script
+2017-08-22 14:46:53.071 +0100	Log		AutoLog	8	on_aw_startapplication	AW_StartApplication.script
+2017-08-22 14:46:53.089 +0100	LogError		Unknown action: Start Application	41	on_engine	Engine.script
+2017-08-22 14:46:53.252 +0100	Log		Action [Select AutoLog Database] completed.	82	on_entry	fReport.script
+2017-08-22 14:46:53.280 +0100	Log		Training	4	on_aw_selectautologdatabase	AW_SelectAutoLogDatabase.script
+2017-08-22 14:46:53.303 +0100	LogError		Unknown action: Select AutoLog Database	41	on_engine	Engine.script
+2017-08-22 14:46:53.525 +0100	Log		Action [Verify Homescreen] completed.	82	on_entry	fReport.script
+2017-08-22 14:46:53.550 +0100	Log		AutoLog	4	on_aw_verifyhomescreen	AW_VerifyHomescreen.script
+2017-08-22 14:46:53.568 +0100	LogSuccess		Action 1 - [Verify Homescreen] completed.	37	on_engine	Engine.script
+2017-08-22 14:46:53.840 +0100	EndTestCase		(Duration:"1.331", Errors:"9", Exceptions:"0", StartTime:"2017-08-22 14:46:52 +0100", Successes:"1", TestCase:"Engine.script", Warnings:"0")	17	on_kickoff	KickOff.script
+2017-08-22 14:46:54.077 +0100	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'aw_openstationlog' -- Execution Time 0:00:01 Engine.script	17	on_kickoff	KickOff.script

@@ -1,0 +1,24 @@
+﻿
+//=========================================================================(*=====================
+on IW_TestCase
+	put "incomplete" into Global sStatusAction
+	fReport.Entry "TC", item 2 of item 9 of Global cellValue
+	put "ignore" into Global sStatusAction
+end IW_TestCase
+
+//==============================================================================================
+on IW_Section
+	put "incomplete" into Global sStatusAction
+	fReport.Entry "SECTION", item 2 of item 26 of Global cellValue
+	put "ignore" into Global sStatusAction
+end IW_Section
+
+//==============================================================================================
+on IW_Reference
+	put "incomplete" into Global sStatusAction
+	
+	put "ignore" into Global sStatusAction
+end IW_Reference
+
+
+//==============================================================================================

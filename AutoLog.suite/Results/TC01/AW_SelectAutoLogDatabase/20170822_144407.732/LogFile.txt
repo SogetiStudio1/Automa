@@ -1,0 +1,3 @@
+﻿2017-08-22 14:44:07.736 +0100	START		Running AW_SelectAutoLogDatabase.script
+2017-08-22 14:44:08.287 +0100	EndTestCase		(Duration:"0.548", Errors:"1", Exceptions:"0", StartTime:"2017-08-22 14:44:07 +0100", Successes:"0", TestCase:"AW_SelectAutoLogDatabase.script", Warnings:"0")
+2017-08-22 14:44:08.494 +0100	FAILURE	Screen_Error.png	STFileException Attempt to access unopened file:  -- Execution Time 0:00:01 AW_SelectAutoLogDatabase.script

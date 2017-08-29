@@ -1,0 +1,9 @@
+﻿2017-08-23 11:58:22.935 +0100	START		Running Engine.script	42	on_kickoff	KickOff.script
+2017-08-23 11:58:22.968 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-23 11:58:22.989 +0100	Log		Result1:((Start Application,AutoLog,,,,,,,,,,,,,))	24	on_engine	Engine.script
+2017-08-23 11:58:23.124 +0100	Log		Action [] completed.	82	on_entry	fReport.script
+2017-08-23 11:58:23.151 +0100	Log		Data:AutoLog	4	on_tc01_aw_startapplication	TC01/AW_StartApplication.script
+2017-08-23 11:58:23.154 +0100	Log		AutoLog	22	on_tc01_aw_startapplication	TC01/AW_StartApplication.script
+2017-08-23 11:58:23.160 +0100	Log		Result2:AutoLog	32	on_engine	Engine.script
+2017-08-23 11:58:23.167 +0100	EndTestCase		(Duration:"0.229", Errors:"0", Exceptions:"0", StartTime:"2017-08-23 11:58:22 +0100", Successes:"1", TestCase:"Engine.script", Warnings:"0")	42	on_kickoff	KickOff.script
+2017-08-23 11:58:23.197 +0100	SUCCESS		Execution Time 0:00:01 Engine.script	42	on_kickoff	KickOff.script

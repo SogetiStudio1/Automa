@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Engine.script" package="AutoLog.suite" timestamp="2017-08-22 22:03:55.092 +0100"
+ tests="1" successes="1" errors="0" time="0.083000">
+  <properties>
+   <property name="RunDate" value="2017-08-22 22:03:55.092 +0100"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Engine.script" assertions="1" successes="1" errors="0" time="0.072">
+  </testcase>
+ </testsuite>
+</testsuites>

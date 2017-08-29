@@ -1,0 +1,205 @@
+﻿2017-08-23 14:33:03.329 +0100	START		Running Engine.script	42	on_kickoff	KickOff.script
+2017-08-23 14:33:03.399 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-23 14:33:03.433 +0100	Log		Result1:(arg0,arg1,arg2,arg3,arg4,arg5)	23	on_engine	Engine.script
+2017-08-23 14:33:03.436 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.456 +0100	LogError		Unknown action: arg0	87	on_engine	Engine.script
+2017-08-23 14:33:03.463 +0100	Log		Result1:(Reference,TS.01,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.467 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.479 +0100	LogError		Unknown action: Reference	87	on_engine	Engine.script
+2017-08-23 14:33:03.487 +0100	Log		Result1:(Subject,Test Scenario: Find and Open Station Log,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.490 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.504 +0100	LogError		Unknown action: Subject	87	on_engine	Engine.script
+2017-08-23 14:33:03.511 +0100	Log		Result1:(Date,2017-08-15 13:00:00 +0100,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.515 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.525 +0100	LogError		Unknown action: Date	87	on_engine	Engine.script
+2017-08-23 14:33:03.534 +0100	Log		Result1:(Author,Marco Venzelaar,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.539 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.555 +0100	LogError		Unknown action: Author	87	on_engine	Engine.script
+2017-08-23 14:33:03.561 +0100	Log		Result1:(Verification by,Clive Holloway,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.564 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.578 +0100	LogError		Unknown action: Verification by	87	on_engine	Engine.script
+2017-08-23 14:33:03.583 +0100	Log		Result1:(Counted test steps,13,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.588 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.601 +0100	LogError		Unknown action: Counted test steps	87	on_engine	Engine.script
+2017-08-23 14:33:03.613 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.617 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.637 +0100	Log		Result1:(Test Case,TS01.TC01,Access Autolog as Guest,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.641 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.655 +0100	LogError		Unknown action: Test Case	87	on_engine	Engine.script
+2017-08-23 14:33:03.662 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.666 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.685 +0100	Log		Result1:(,Application,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.688 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.704 +0100	Log		Result1:(Start Application,AutoLog,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.710 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.724 +0100	LogError		Unknown action: Start Application	87	on_engine	Engine.script
+2017-08-23 14:33:03.730 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.735 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.756 +0100	Log		Result1:(,Select database and location to logon to AutoLog either as a guest or as an user,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.760 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.777 +0100	Log		Result1:(,Database name,DB Location,Username,Password,Guest)	23	on_engine	Engine.script
+2017-08-23 14:33:03.781 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.798 +0100	Log		Result1:(Select AutoLog Database,Training,Hunterson,&empty,&empty,Guest Login)	23	on_engine	Engine.script
+2017-08-23 14:33:03.802 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.823 +0100	LogError		Unknown action: Select AutoLog Database	87	on_engine	Engine.script
+2017-08-23 14:33:03.831 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.834 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.856 +0100	Log		Result1:(,Verify that the home screen of the application is presented, based on AutoLog menu shown,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.861 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.880 +0100	Log		Result1:(,Application,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.883 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.898 +0100	Log		Result1:(Verify Homescreen,AutoLog,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.901 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.922 +0100	LogError		Unknown action: Verify Homescreen	87	on_engine	Engine.script
+2017-08-23 14:33:03.929 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.933 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.950 +0100	Log		Result1:(,Please Select the test result for this Test Case,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.953 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.970 +0100	Log		Result1:(,Result,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.974 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:03.991 +0100	Log		Result1:(,Untested,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:03.995 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.024 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.028 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.049 +0100	Log		Result1:(Test Case,TS01.TC02,Find & select station log,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.053 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.067 +0100	LogError		Unknown action: Test Case	87	on_engine	Engine.script
+2017-08-23 14:33:04.074 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.078 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.096 +0100	Log		Result1:(,Find the station log in list.,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.099 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.129 +0100	Log		Result1:(,Date/time,Log entry,User,DAP,Sub log)	23	on_engine	Engine.script
+2017-08-23 14:33:04.132 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.155 +0100	Log		Result1:(Open Station Log,data tbc SSL Arg 1,data tbc SSL Arg 2,data tbc SSL Arg 3,data tbc SSL Arg 4,data tbc SSL Arg 5)	23	on_engine	Engine.script
+2017-08-23 14:33:04.159 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.172 +0100	LogError		Unknown action: Open Station Log	87	on_engine	Engine.script
+2017-08-23 14:33:04.179 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.183 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.201 +0100	Log		Result1:(,Verify if the log is selected on the screen,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.205 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.226 +0100	Log		Result1:(,Date/time,Log entry,User,DAP,Sub log)	23	on_engine	Engine.script
+2017-08-23 14:33:04.231 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.257 +0100	Log		Result1:(Verify Selected Log,data tbc VSL Arg 1,data tbc VSL Arg 2,data tbc VSL Arg 3,data tbc VSL Arg 4,data tbc VSL Arg 5)	23	on_engine	Engine.script
+2017-08-23 14:33:04.261 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.275 +0100	LogError		Unknown action: Verify Selected Log	87	on_engine	Engine.script
+2017-08-23 14:33:04.282 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.286 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.324 +0100	Log		Result1:(,Please Select the test result for this Test Case,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.329 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.356 +0100	Log		Result1:(,Result,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.360 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.381 +0100	Log		Result1:(,Untested,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.385 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.403 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.417 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.441 +0100	Log		Result1:(Test Case,TS01.TC03,Use an invalid date for the date of flight,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.445 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.458 +0100	LogError		Unknown action: Test Case	87	on_engine	Engine.script
+2017-08-23 14:33:04.464 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.467 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.484 +0100	Log		Result1:(,Find the station log in list.,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.487 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.502 +0100	Log		Result1:(,Date/time,Log entry,User,DAP,Sub log)	23	on_engine	Engine.script
+2017-08-23 14:33:04.517 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.536 +0100	Log		Result1:(Open Station Log,data tbc SSL2 Arg 1,data tbc SSL2 Arg 2,data tbc SSL2 Arg 3,data tbc SSL2 Arg 4,data tbc SSL2 Arg 5)	23	on_engine	Engine.script
+2017-08-23 14:33:04.540 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.553 +0100	LogError		Unknown action: Open Station Log	87	on_engine	Engine.script
+2017-08-23 14:33:04.559 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.563 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.579 +0100	Log		Result1:(,Verify if the log is selected on the screen,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.583 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.599 +0100	Log		Result1:(,Date/time,Log entry,User,DAP,Sub log)	23	on_engine	Engine.script
+2017-08-23 14:33:04.603 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.631 +0100	Log		Result1:(Verify Selected Log,data tbc VSL2 Arg 1,data tbc VSL2 Arg 2,data tbc VSL2 Arg 3,data tbc VSL2 Arg 4,data tbc VSL2 Arg 5)	23	on_engine	Engine.script
+2017-08-23 14:33:04.636 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.648 +0100	LogError		Unknown action: Verify Selected Log	87	on_engine	Engine.script
+2017-08-23 14:33:04.654 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.659 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.675 +0100	Log		Result1:(,Please Select the test result for this Test Case,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.678 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.695 +0100	Log		Result1:(,Result,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.698 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.735 +0100	Log		Result1:(,Untested,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.739 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.756 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.760 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.778 +0100	Log		Result1:(Test Case,TS01.TC04,Select Report Function,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.782 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.795 +0100	LogError		Unknown action: Test Case	87	on_engine	Engine.script
+2017-08-23 14:33:04.801 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.804 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.838 +0100	Log		Result1:(,Find the station log in list.,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.842 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.861 +0100	Log		Result1:(,Report Name,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.864 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.881 +0100	Log		Result1:(Select AutoLog Report,Daily Station Report,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.885 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.899 +0100	LogError		Unknown action: Select AutoLog Report	87	on_engine	Engine.script
+2017-08-23 14:33:04.922 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.926 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.943 +0100	Log		Result1:(,Verify the message appears as expected,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.949 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.968 +0100	Log		Result1:(,Message,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.972 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:04.989 +0100	Log		Result1:(Verify Message,You are not authorised to access this reporting functionality.,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:04.994 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.023 +0100	LogError		Unknown action: Verify Message	87	on_engine	Engine.script
+2017-08-23 14:33:05.031 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.035 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.052 +0100	Log		Result1:(,Please Select the test result for this Test Case,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.056 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.072 +0100	Log		Result1:(,Result,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.075 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.092 +0100	Log		Result1:(,Untested,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.095 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.129 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.133 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.151 +0100	Log		Result1:(Test Case,TS01.TC05,Select ShiftNotes Function,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.156 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.170 +0100	LogError		Unknown action: Test Case	87	on_engine	Engine.script
+2017-08-23 14:33:05.176 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.180 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.197 +0100	Log		Result1:(,In the AutoLog menu select CORA and then the next option,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.200 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.235 +0100	Log		Result1:(,CORA option,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.238 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.259 +0100	Log		Result1:(Select ShiftNotes,ShiftNotes,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.263 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.276 +0100	LogError		Unknown action: Select ShiftNotes	87	on_engine	Engine.script
+2017-08-23 14:33:05.282 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.285 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.301 +0100	Log		Result1:(,Verify that the home screen of the application is presented, based on AutoLog menu shown,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.305 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.343 +0100	Log		Result1:(,Application,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.347 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.362 +0100	Log		Result1:(Verify Homescreen,ShiftNotes,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.367 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.379 +0100	LogError		Unknown action: Verify Homescreen	87	on_engine	Engine.script
+2017-08-23 14:33:05.387 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.390 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.432 +0100	Log		Result1:(,Please Select the test result for this Test Case,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.437 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.454 +0100	Log		Result1:(,Result,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.458 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.473 +0100	Log		Result1:(,Untested,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.477 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.495 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.498 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.537 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.541 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.560 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.564 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.582 +0100	Log		Result1:(,Application,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.585 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.604 +0100	Log		Result1:(Stop Application,ShiftNotes,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.628 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.645 +0100	LogError		Unknown action: Stop Application	87	on_engine	Engine.script
+2017-08-23 14:33:05.652 +0100	Log		Result1:(,,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.656 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.673 +0100	Log		Result1:(,Application,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.676 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.692 +0100	Log		Result1:(Stop Application,AutoLog,,,,)	23	on_engine	Engine.script
+2017-08-23 14:33:05.695 +0100	Log		Result2:	25	on_engine	Engine.script
+2017-08-23 14:33:05.755 +0100	LogError		Unknown action: Stop Application	87	on_engine	Engine.script
+2017-08-23 14:33:05.762 +0100	EndTestCase		(Duration:"2.428", Errors:"25", Exceptions:"0", StartTime:"2017-08-23 14:33:03 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	42	on_kickoff	KickOff.script
+2017-08-23 14:33:05.840 +0100	FAILURE		Script Error Number of Errors logged: 25 -- Execution Time 0:00:02 Engine.script	42	on_kickoff	KickOff.script

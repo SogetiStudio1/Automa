@@ -1,0 +1,7 @@
+﻿2017-08-22 15:25:29.303 +0100	START		Running KickOff.script
+2017-08-22 15:25:29.499 +0100	Log		Data: D:\Users\ubnkim\Documents\eggPlant Test - EDF\AutoLog TS01 - Select Station Log.csv	5	on_kickoff	KickOff.script
+2017-08-22 15:25:29.553 +0100	Log		This will be the header of report with the title: [VenzTitle]	2	on_opentestreport	fReport.script
+2017-08-22 15:25:29.598 +0100	runwithnewresults		Engine.script (C:/AutoLog.suite/Results/Engine/20170822_152529.595/LogFile.txt)	17	on_kickoff	KickOff.script
+2017-08-22 15:25:30.281 +0100	Log		This will be the closing footer and summary with the some parameter passing through: [D:\Users\ubnkim\Documents\eggPlant Test - EDF\AutoLog TS01 - Select Station Log.csv]	3	on_closetestreport	fReport.script
+2017-08-22 15:25:30.608 +0100	EndTestCase		(Duration:"1.302", Errors:"7", Exceptions:"0", StartTime:"2017-08-22 15:25:29 +0100", Successes:"1", TestCase:"KickOff.script", Warnings:"0")
+2017-08-22 15:25:30.637 +0100	SUCCESS		Execution Time 0:00:01 KickOff.script

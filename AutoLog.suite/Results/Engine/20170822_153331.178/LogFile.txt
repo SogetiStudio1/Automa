@@ -1,0 +1,19 @@
+﻿2017-08-22 15:33:31.184 +0100	START		Running Engine.script	17	on_kickoff	KickOff.script
+2017-08-22 15:33:31.239 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-22 15:33:31.258 +0100	LogError		Unknown action: arg0	41	on_engine	Engine.script
+2017-08-22 15:33:31.329 +0100	LogError		Unknown action: Subject	41	on_engine	Engine.script
+2017-08-22 15:33:31.340 +0100	LogError		Unknown action: Date	41	on_engine	Engine.script
+2017-08-22 15:33:31.355 +0100	LogError		Unknown action: Author	41	on_engine	Engine.script
+2017-08-22 15:33:31.372 +0100	LogError		Unknown action: Verification by	41	on_engine	Engine.script
+2017-08-22 15:33:31.385 +0100	LogError		Unknown action: Counted test steps	41	on_engine	Engine.script
+2017-08-22 15:33:31.772 +0100	Log		Action [Start Application] completed.	82	on_entry	fReport.script
+2017-08-22 15:33:31.804 +0100	Log		AutoLog	8	on_tc01_aw_startapplication	TC01/AW_StartApplication.script
+2017-08-22 15:33:31.840 +0100	LogError		Unknown action: Start Application	41	on_engine	Engine.script
+2017-08-22 15:33:32.025 +0100	Log		Action [Select AutoLog Database - Training] completed.	82	on_entry	fReport.script
+2017-08-22 15:33:32.061 +0100	Log		Training	4	on_tc01_aw_selectautologdatabase	TC01/AW_SelectAutoLogDatabase.script
+2017-08-22 15:33:32.087 +0100	LogError		Unknown action: Select AutoLog Database	41	on_engine	Engine.script
+2017-08-22 15:33:32.294 +0100	Log		Action [Verify Homescreen] completed.	82	on_entry	fReport.script
+2017-08-22 15:33:32.323 +0100	Log		AutoLog	4	on_tc01_aw_verifyhomescreen	TC01/AW_VerifyHomeScreen.script
+2017-08-22 15:33:32.361 +0100	LogSuccess		Action 1 - [Verify Homescreen] completed.	37	on_engine	Engine.script
+2017-08-22 15:33:32.666 +0100	EndTestCase		(Duration:"1.479", Errors:"9", Exceptions:"0", StartTime:"2017-08-22 15:33:31 +0100", Successes:"1", TestCase:"Engine.script", Warnings:"0")	17	on_kickoff	KickOff.script
+2017-08-22 15:33:32.874 +0100	FAILURE	Screen_Error.png	SRUN_BadValue Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'. -- Execution Time 0:00:01 Engine.script	17	on_kickoff	KickOff.script

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Engine.script" package="AutoLog.suite" timestamp="2017-08-23 14:33:03.322 +0100"
+ tests="1" successes="0" errors="25" time="2.439000">
+  <properties>
+   <property name="RunDate" value="2017-08-23 14:33:03.322 +0100"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Engine.script" assertions="25" successes="0" errors="25" time="2.428">
+    <failure type="LogError">Unknown action: arg0</failure>
+    <failure type="LogError">Unknown action: Reference</failure>
+    <failure type="LogError">Unknown action: Subject</failure>
+    <failure type="LogError">Unknown action: Date</failure>
+    <failure type="LogError">Unknown action: Author</failure>
+    <failure type="LogError">Unknown action: Verification by</failure>
+    <failure type="LogError">Unknown action: Counted test steps</failure>
+    <failure type="LogError">Unknown action: Test Case</failure>
+    <failure type="LogError">Unknown action: Start Application</failure>
+    <failure type="LogError">Unknown action: Select AutoLog Database</failure>
+    <failure type="LogError">Unknown action: Verify Homescreen</failure>
+    <failure type="LogError">Unknown action: Test Case</failure>
+    <failure type="LogError">Unknown action: Open Station Log</failure>
+    <failure type="LogError">Unknown action: Verify Selected Log</failure>
+    <failure type="LogError">Unknown action: Test Case</failure>
+    <failure type="LogError">Unknown action: Open Station Log</failure>
+    <failure type="LogError">Unknown action: Verify Selected Log</failure>
+    <failure type="LogError">Unknown action: Test Case</failure>
+    <failure type="LogError">Unknown action: Select AutoLog Report</failure>
+    <failure type="LogError">Unknown action: Verify Message</failure>
+    <failure type="LogError">Unknown action: Test Case</failure>
+    <failure type="LogError">Unknown action: Select ShiftNotes</failure>
+    <failure type="LogError">Unknown action: Verify Homescreen</failure>
+    <failure type="LogError">Unknown action: Stop Application</failure>
+    <failure type="LogError">Unknown action: Stop Application</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

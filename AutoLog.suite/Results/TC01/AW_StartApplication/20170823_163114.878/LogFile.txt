@@ -1,0 +1,3 @@
+﻿2017-08-23 16:31:14.883 +0100	START		Running TC01/AW_StartApplication.script
+2017-08-23 16:31:15.377 +0100	EndTestCase		(Duration:"0.488", Errors:"1", Exceptions:"0", StartTime:"2017-08-23 16:31:14 +0100", Successes:"0", TestCase:"TC01/AW_StartApplication.script", Warnings:"0")
+2017-08-23 16:31:15.409 +0100	FAILURE		STFileException Attempt to access unopened file:  -- Execution Time 0:00:01 TC01/AW_StartApplication.script

@@ -1,0 +1,185 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-08-21 16:24:57.520 +0100,"Success",0:00:00,0,0,0,"20170821_162457.520/LogFile.txt","","",1
+2017-08-21 16:25:08.132 +0100,"Success",0:00:00,0,0,0,"20170821_162508.132/LogFile.txt","","",1
+2017-08-21 16:25:24.024 +0100,"Success",0:00:00,0,0,0,"20170821_162524.024/LogFile.txt","","",1
+2017-08-21 17:09:38.055 +0100,"Failure",0:00:00,1,0,0,"20170821_170938.055/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 46: Syntax Error - can't understand ""end"" at or near character 1557",0
+2017-08-22 13:40:41.780 +0100,"Success",0:00:00,0,0,0,"20170822_134041.780/LogFile.txt","","",1
+2017-08-22 14:07:47.159 +0100,"Failure",0:00:00,7,0,0,"20170822_140747.159/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_startapplication'",0
+2017-08-22 14:14:49.515 +0100,"Failure",0:00:00,8,0,0,"20170822_141449.515/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_selectautologdatabase'",0
+2017-08-22 14:26:35.746 +0100,"Failure",0:00:00,10,0,0,"20170822_142635.746/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",0
+2017-08-22 14:40:52.598 +0100,"Failure",0:00:01,9,0,0,"20170822_144052.598/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 14:42:52.264 +0100,"Failure",0:00:01,9,0,0,"20170822_144252.264/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 14:44:26.597 +0100,"Failure",0:00:01,9,0,0,"20170822_144426.597/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 14:46:52.498 +0100,"Failure",0:00:01,9,0,0,"20170822_144652.498/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 15:04:51.779 +0100,"Failure",0:00:01,9,0,0,"20170822_150451.779/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 15:05:58.972 +0100,"Failure",0:00:01,9,0,0,"20170822_150558.972/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 15:06:58.215 +0100,"Failure",0:00:01,9,0,0,"20170822_150658.215/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 15:08:02.313 +0100,"Failure",0:00:01,9,0,0,"20170822_150802.313/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 15:10:34.983 +0100,"Failure",0:00:01,9,0,0,"20170822_151034.983/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_openstationlog'",1
+2017-08-22 15:25:29.595 +0100,"Failure",0:00:00,7,0,0,"20170822_152529.595/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_startapplication'",0
+2017-08-22 15:27:18.448 +0100,"Failure",0:00:00,7,0,0,"20170822_152718.448/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_startapplication'",0
+2017-08-22 15:29:46.182 +0100,"Success",0:00:00,0,0,0,"20170822_152946.182/LogFile.txt","","",1
+2017-08-22 15:32:15.641 +0100,"Failure",0:00:00,8,0,0,"20170822_153215.641/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'aw_selectautologdatabase'",0
+2017-08-22 15:33:31.178 +0100,"Failure",0:00:01,9,0,0,"20170822_153331.178/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",1
+2017-08-22 16:01:50.214 +0100,"Failure",0:00:01,9,0,0,"20170822_160150.214/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",1
+2017-08-22 21:45:56.267 +0100,"Failure",0:00:01,9,0,0,"20170822_214556.267/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",1
+2017-08-22 22:03:55.092 +0100,"Success",0:00:00,0,0,0,"20170822_220355.092/LogFile.txt","","",1
+2017-08-22 22:08:30.376 +0100,"Success",0:00:00,0,0,0,"20170822_220830.376/LogFile.txt","","",1
+2017-08-22 22:10:42.517 +0100,"Success",0:00:00,0,0,0,"20170822_221042.517/LogFile.txt","","",1
+2017-08-22 22:55:39.871 +0100,"Success",0:00:00,0,0,0,"20170822_225539.871/LogFile.txt","","",1
+2017-08-22 22:57:08.588 +0100,"Success",0:00:00,0,0,0,"20170822_225708.588/LogFile.txt","","",1
+2017-08-23 09:20:23.555 +0100,"Failure",0:00:00,1,0,0,"20170823_092023.555/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 69: Syntax Error - can't understand ""end"" at or near character 2032",0
+2017-08-23 09:21:08.341 +0100,"Failure",0:00:00,1,0,0,"20170823_092108.341/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 69: Syntax Error - can't understand ""end"" at or near character 2032",0
+2017-08-23 09:41:11.128 +0100,"Failure",0:00:00,1,0,0,"20170823_094111.128/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 67: Syntax Error - can't understand ""end"" at or near character 2031",0
+2017-08-23 09:44:32.922 +0100,"Failure",0:00:00,1,0,0,"20170823_094432.922/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 67: Syntax Error - can't understand ""end"" at or near character 2031",0
+2017-08-23 09:44:44.414 +0100,"Failure",0:00:00,1,0,0,"20170823_094444.414/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 67: Syntax Error - can't understand ""end"" at or near character 2031",0
+2017-08-23 09:59:19.413 +0100,"Failure",0:00:00,1,0,0,"20170823_095919.413/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2071",0
+2017-08-23 10:05:26.542 +0100,"Failure",0:00:00,1,0,0,"20170823_100526.542/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2074",0
+2017-08-23 10:06:34.041 +0100,"Failure",0:00:00,1,0,0,"20170823_100634.041/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2074",0
+2017-08-23 10:12:03.293 +0100,"Failure",0:00:00,1,0,0,"20170823_101203.293/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2028",0
+2017-08-23 10:20:45.689 +0100,"Failure",0:00:00,1,0,0,"20170823_102045.689/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2028",0
+2017-08-23 10:21:35.842 +0100,"Failure",0:00:00,1,0,0,"20170823_102135.842/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2028",0
+2017-08-23 10:21:52.184 +0100,"Failure",0:00:00,1,0,0,"20170823_102152.184/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2028",0
+2017-08-23 10:23:21.798 +0100,"Failure",0:00:00,1,0,0,"20170823_102321.798/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2028",0
+2017-08-23 10:30:36.920 +0100,"Failure",0:00:00,1,0,0,"20170823_103036.920/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2017",0
+2017-08-23 10:32:40.768 +0100,"Failure",0:00:00,1,0,0,"20170823_103240.768/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2017",0
+2017-08-23 11:05:14.405 +0100,"Failure",0:00:00,1,0,0,"20170823_110514.405/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2017",0
+2017-08-23 11:27:34.725 +0100,"Failure",0:00:00,1,0,0,"20170823_112734.725/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2017",0
+2017-08-23 11:46:12.865 +0100,"Failure",0:00:00,1,0,0,"20170823_114612.865/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2017",0
+2017-08-23 11:49:28.264 +0100,"Failure",0:00:00,1,0,0,"20170823_114928.264/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2017",0
+2017-08-23 11:49:57.382 +0100,"Failure",0:00:00,1,0,0,"20170823_114957.382/LogFile.txt","","SenseTalk Compiler Exception -- in engine:\nSyntax Error at line 68: Syntax Error - can't understand ""end"" at or near character 2017",0
+2017-08-23 11:50:29.173 +0100,"Success",0:00:00,0,0,0,"20170823_115029.173/LogFile.txt","","",1
+2017-08-23 11:51:47.325 +0100,"Success",0:00:00,0,0,0,"20170823_115147.325/LogFile.txt","","",1
+2017-08-23 11:54:19.576 +0100,"Success",0:00:00,0,0,0,"20170823_115419.576/LogFile.txt","","",1
+2017-08-23 11:54:51.605 +0100,"Success",0:00:00,0,0,0,"20170823_115451.605/LogFile.txt","","",1
+2017-08-23 11:58:11.589 +0100,"Failure",0:00:00,1,0,0,"20170823_115811.589/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 11:58:22.930 +0100,"Success",0:00:00,0,0,0,"20170823_115822.930/LogFile.txt","","",1
+2017-08-23 12:00:54.716 +0100,"Success",0:00:00,0,0,0,"20170823_120054.716/LogFile.txt","","",1
+2017-08-23 12:01:41.067 +0100,"Success",0:00:00,0,0,0,"20170823_120141.067/LogFile.txt","","",1
+2017-08-23 12:02:55.689 +0100,"Failure",0:00:00,1,0,0,"20170823_120255.689/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 12:14:41.036 +0100,"Failure",0:00:00,1,0,0,"20170823_121441.036/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 12:28:33.596 +0100,"Failure",0:00:00,1,0,0,"20170823_122833.596/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:04:26.693 +0100,"Failure",0:00:00,1,0,0,"20170823_130426.693/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:10:50.167 +0100,"Failure",0:00:00,1,0,0,"20170823_131050.167/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:13:28.599 +0100,"Failure",0:00:00,1,0,0,"20170823_131328.599/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:16:13.672 +0100,"Failure",0:00:00,1,0,0,"20170823_131613.672/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:17:44.904 +0100,"Failure",0:00:00,1,0,0,"20170823_131744.904/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:18:51.106 +0100,"Failure",0:00:00,1,0,0,"20170823_131851.106/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:20:20.815 +0100,"Failure",0:00:00,1,0,0,"20170823_132020.815/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:24:58.177 +0100,"Failure",0:00:00,1,0,0,"20170823_132458.177/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:32:25.122 +0100,"Failure",0:00:00,1,0,0,"20170823_133225.122/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:33:58.064 +0100,"Failure",0:00:00,1,0,0,"20170823_133358.064/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:35:04.314 +0100,"Failure",0:00:00,1,0,0,"20170823_133504.314/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:37:37.239 +0100,"Failure",0:00:00,1,0,0,"20170823_133737.239/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:38:37.094 +0100,"Failure",0:00:00,1,0,0,"20170823_133837.094/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:38:54.570 +0100,"Failure",0:00:00,1,0,0,"20170823_133854.570/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:55:55.442 +0100,"Failure",0:00:00,1,0,0,"20170823_135555.442/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 13:56:54.257 +0100,"Failure",0:00:00,1,0,0,"20170823_135654.257/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:03:33.631 +0100,"Failure",0:00:00,1,0,0,"20170823_140333.631/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:04:05.031 +0100,"Failure",0:00:00,1,0,0,"20170823_140405.031/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:04:20.243 +0100,"Failure",0:00:00,1,0,0,"20170823_140420.243/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:05:02.981 +0100,"Failure",0:00:00,1,0,0,"20170823_140502.981/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:05:09.569 +0100,"Failure",0:00:00,1,0,0,"20170823_140509.569/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:14:10.587 +0100,"Failure",0:00:00,1,0,0,"20170823_141410.587/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:15:42.765 +0100,"Failure",0:00:00,1,0,0,"20170823_141542.765/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:16:51.670 +0100,"Failure",0:00:00,2,0,0,"20170823_141651.670/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'iw_reference'",0
+2017-08-23 14:17:43.776 +0100,"Failure",0:00:00,2,0,0,"20170823_141743.776/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'iw_reference'",0
+2017-08-23 14:18:44.780 +0100,"Failure",0:00:00,1,0,0,"20170823_141844.780/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:24:28.802 +0100,"Failure",0:00:00,1,0,0,"20170823_142428.802/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:25:23.486 +0100,"Failure",0:00:00,1,0,0,"20170823_142523.486/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:27:01.854 +0100,"Failure",0:00:00,1,0,0,"20170823_142701.854/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:27:54.876 +0100,"Failure",0:00:00,1,0,0,"20170823_142754.876/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:28:46.216 +0100,"Failure",0:00:00,1,0,0,"20170823_142846.216/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:29:30.100 +0100,"Failure",0:00:00,1,0,0,"20170823_142930.100/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:31:04.621 +0100,"Failure",0:00:00,1,0,0,"20170823_143104.621/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:31:45.624 +0100,"Failure",0:00:00,1,0,0,"20170823_143145.624/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:33:03.322 +0100,"Failure",0:00:02,25,0,0,"20170823_143303.322/LogFile.txt","","Script Error -- Number of Errors logged: 25",0
+2017-08-23 14:34:25.043 +0100,"Success",0:00:00,0,0,0,"20170823_143425.043/LogFile.txt","","",1
+2017-08-23 14:35:07.796 +0100,"Success",0:00:00,0,0,0,"20170823_143507.796/LogFile.txt","","",1
+2017-08-23 14:35:34.807 +0100,"Failure",0:00:00,1,0,0,"20170823_143534.807/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:36:21.394 +0100,"Failure",0:00:00,1,0,0,"20170823_143621.394/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:36:58.853 +0100,"Failure",0:00:00,1,0,0,"20170823_143658.853/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:37:49.335 +0100,"Failure",0:00:00,1,0,0,"20170823_143749.335/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:39:04.013 +0100,"Failure",0:00:00,1,0,0,"20170823_143904.013/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:40:29.456 +0100,"Success",0:00:00,0,0,0,"20170823_144029.456/LogFile.txt","","",1
+2017-08-23 14:41:42.506 +0100,"Failure",0:00:00,1,0,0,"20170823_144142.506/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2017-08-23 14:44:15.549 +0100,"Success",0:00:00,0,0,0,"20170823_144415.549/LogFile.txt","","",1
+2017-08-23 14:45:52.946 +0100,"Success",0:00:00,0,0,0,"20170823_144552.946/LogFile.txt","","",1
+2017-08-23 14:46:42.603 +0100,"Success",0:00:00,0,0,0,"20170823_144642.603/LogFile.txt","","",1
+2017-08-23 14:47:42.473 +0100,"Success",0:00:00,0,0,0,"20170823_144742.473/LogFile.txt","","",1
+2017-08-23 14:48:18.592 +0100,"Success",0:00:00,0,0,0,"20170823_144818.592/LogFile.txt","","",1
+2017-08-23 14:49:19.643 +0100,"Failure",0:00:00,1,0,0,"20170823_144919.643/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:51:48.511 +0100,"Failure",0:00:00,1,0,0,"20170823_145148.511/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:53:23.735 +0100,"Failure",0:00:00,1,0,0,"20170823_145323.735/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:54:17.416 +0100,"Failure",0:00:00,1,0,0,"20170823_145417.416/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:55:14.899 +0100,"Failure",0:00:00,1,0,0,"20170823_145514.899/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:55:57.316 +0100,"Failure",0:00:00,1,0,0,"20170823_145557.316/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:56:22.793 +0100,"Failure",0:00:00,1,0,0,"20170823_145622.793/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:58:21.585 +0100,"Failure",0:00:00,1,0,0,"20170823_145821.585/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 14:59:34.048 +0100,"Failure",0:00:00,1,0,0,"20170823_145934.048/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:00:15.634 +0100,"Failure",0:00:00,1,0,0,"20170823_150015.634/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 15:00:49.769 +0100,"Failure",0:00:00,1,0,0,"20170823_150049.769/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 15:01:08.343 +0100,"Failure",0:00:00,1,0,0,"20170823_150108.343/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 15:01:29.232 +0100,"Failure",0:00:00,1,0,0,"20170823_150129.232/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:02:01.651 +0100,"Failure",0:00:00,1,0,0,"20170823_150201.651/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 15:02:20.066 +0100,"Failure",0:00:00,1,0,0,"20170823_150220.066/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:02:45.818 +0100,"Failure",0:00:00,1,0,0,"20170823_150245.818/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:03:02.699 +0100,"Failure",0:00:00,1,0,0,"20170823_150302.699/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:45:29.110 +0100,"Failure",0:00:00,1,0,0,"20170823_154529.110/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:49:01.707 +0100,"Failure",0:00:00,1,0,0,"20170823_154901.707/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:52:33.450 +0100,"Failure",0:00:00,1,0,0,"20170823_155233.450/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:53:48.333 +0100,"Failure",0:00:00,1,0,0,"20170823_155348.333/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:55:46.943 +0100,"Failure",0:00:00,1,0,0,"20170823_155546.943/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:56:28.663 +0100,"Failure",0:00:00,1,0,0,"20170823_155628.663/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:57:36.916 +0100,"Failure",0:00:00,1,0,0,"20170823_155736.916/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 15:58:13.465 +0100,"Failure",0:00:00,1,0,0,"20170823_155813.465/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 16:03:52.985 +0100,"Failure",0:00:00,1,0,0,"20170823_160352.985/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'TC01/AW_OpenStationLog'.",0
+2017-08-23 16:16:02.267 +0100,"Success",0:00:00,0,0,0,"20170823_161602.267/LogFile.txt","","",1
+2017-08-23 16:18:23.934 +0100,"Success",0:00:01,0,0,0,"20170823_161823.934/LogFile.txt","","",1
+2017-08-23 16:19:20.823 +0100,"Failure",0:00:00,1,0,0,"20170823_161920.823/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 16:19:27.427 +0100,"Success",0:00:00,0,0,0,"20170823_161927.427/LogFile.txt","","",1
+2017-08-23 16:19:48.067 +0100,"Success",0:00:01,0,0,0,"20170823_161948.067/LogFile.txt","","",1
+2017-08-23 16:21:05.389 +0100,"Failure",0:00:00,1,0,0,"20170823_162105.389/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 16:21:11.220 +0100,"Success",0:00:01,0,0,0,"20170823_162111.220/LogFile.txt","","",1
+2017-08-23 16:25:15.822 +0100,"Success",0:00:00,0,0,0,"20170823_162515.822/LogFile.txt","","",1
+2017-08-23 16:25:28.365 +0100,"Success",0:00:01,0,0,0,"20170823_162528.365/LogFile.txt","","",1
+2017-08-23 16:26:58.367 +0100,"Success",0:00:01,0,0,0,"20170823_162658.367/LogFile.txt","","",1
+2017-08-23 16:28:54.045 +0100,"Success",0:00:01,0,0,0,"20170823_162854.045/LogFile.txt","","",1
+2017-08-23 16:31:20.102 +0100,"Success",0:00:01,0,0,0,"20170823_163120.102/LogFile.txt","","",1
+2017-08-23 16:36:18.870 +0100,"Success",0:00:01,0,0,0,"20170823_163618.870/LogFile.txt","","",1
+2017-08-23 16:39:55.247 +0100,"Success",0:00:01,0,0,0,"20170823_163955.247/LogFile.txt","","",1
+2017-08-23 16:40:35.691 +0100,"Success",0:00:01,0,0,0,"20170823_164035.691/LogFile.txt","","",1
+2017-08-23 16:58:51.140 +0100,"Success",0:00:01,0,0,0,"20170823_165851.140/LogFile.txt","","",1
+2017-08-23 16:59:45.685 +0100,"Success",0:00:01,0,0,0,"20170823_165945.685/LogFile.txt","","",1
+2017-08-23 17:03:42.831 +0100,"Success",0:00:01,0,0,0,"20170823_170342.831/LogFile.txt","","",1
+2017-08-23 17:04:39.677 +0100,"Failure",0:00:00,1,0,0,"20170823_170439.677/LogFile.txt","","STFileException -- Attempt to access unopened file: ",0
+2017-08-23 17:04:46.662 +0100,"Success",0:00:01,0,0,0,"20170823_170446.662/LogFile.txt","","",1
+2017-08-24 09:39:24.738 +0100,"Success",0:00:01,0,0,0,"20170824_093924.738/LogFile.txt","","",1
+2017-08-24 09:43:31.399 +0100,"Success",0:00:01,0,0,0,"20170824_094331.399/LogFile.txt","","",1
+2017-08-24 09:50:28.986 +0100,"Success",0:00:01,0,0,0,"20170824_095028.986/LogFile.txt","","",1
+2017-08-24 09:51:42.324 +0100,"Success",0:00:01,0,0,0,"20170824_095142.324/LogFile.txt","","",1
+2017-08-24 09:59:56.036 +0100,"Success",0:00:00,0,0,0,"20170824_095956.036/LogFile.txt","","",1
+2017-08-24 10:01:04.392 +0100,"Success",0:00:01,0,0,0,"20170824_100104.392/LogFile.txt","","",1
+2017-08-24 10:02:02.076 +0100,"Success",0:00:01,0,0,0,"20170824_100202.076/LogFile.txt","","",1
+2017-08-24 10:07:28.014 +0100,"Success",0:00:01,0,0,0,"20170824_100728.014/LogFile.txt","","",1
+2017-08-24 10:14:54.586 +0100,"Success",0:00:01,0,0,0,"20170824_101454.586/LogFile.txt","","",1
+2017-08-24 10:20:11.487 +0100,"Success",0:00:01,0,0,0,"20170824_102011.487/LogFile.txt","","",1
+2017-08-24 10:22:01.678 +0100,"Success",0:00:01,0,0,0,"20170824_102201.678/LogFile.txt","","",1
+2017-08-24 10:23:12.979 +0100,"Success",0:00:01,0,0,0,"20170824_102312.979/LogFile.txt","","",1
+2017-08-24 10:24:58.596 +0100,"Success",0:00:01,0,0,0,"20170824_102458.596/LogFile.txt","","",1
+2017-08-24 10:27:33.209 +0100,"Success",0:00:01,0,0,0,"20170824_102733.209/LogFile.txt","","",1
+2017-08-24 10:28:43.234 +0100,"Success",0:00:01,0,0,0,"20170824_102843.234/LogFile.txt","","",1
+2017-08-24 10:29:58.130 +0100,"Success",0:00:01,0,0,0,"20170824_102958.130/LogFile.txt","","",1
+2017-08-24 10:31:48.356 +0100,"Success",0:00:01,0,0,0,"20170824_103148.356/LogFile.txt","","",1
+2017-08-24 10:32:19.622 +0100,"Success",0:00:00,0,0,0,"20170824_103219.622/LogFile.txt","","",1
+2017-08-24 10:34:17.912 +0100,"Success",0:00:01,0,0,0,"20170824_103417.912/LogFile.txt","","",1
+2017-08-24 10:41:58.067 +0100,"Success",0:00:00,0,0,0,"20170824_104158.067/LogFile.txt","","",1
+2017-08-24 10:42:54.681 +0100,"Success",0:00:01,0,0,0,"20170824_104254.681/LogFile.txt","","",1
+2017-08-24 10:57:21.949 +0100,"Success",0:00:01,0,0,0,"20170824_105721.949/LogFile.txt","","",1
+2017-08-24 13:35:21.885 +0100,"Failure",0:00:00,1,0,0,"20170824_133521.885/LogFile.txt","","SenseTalk Compiler Exception -- in screenshot:\nSyntax Error at line 24: Syntax Error - can't understand ""Screenshot"" at or near character 475",0
+2017-08-24 13:36:19.757 +0100,"Success",0:00:00,0,0,0,"20170824_133619.757/LogFile.txt","","",1
+2017-08-24 14:09:55.779 +0100,"Failure",0:00:00,1,0,0,"20170824_140955.779/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'assertionfailcount'",0
+2017-08-24 16:51:30.353 +0100,"Failure",0:00:01,1,0,0,"20170824_165130.353/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'capturethescreenshot'",0
+2017-08-24 16:52:00.604 +0100,"Success",0:00:01,0,0,0,"20170824_165200.604/LogFile.txt","","",1
+2017-08-24 17:10:45.844 +0100,"Success",0:00:01,0,0,0,"20170824_171045.844/LogFile.txt","","",1
+2017-08-25 10:08:02.739 +0100,"Failure",0:00:00,1,0,0,"20170825_100802.739/LogFile.txt","","Unable To Capture Screen -- No connection available from which to capture.",0

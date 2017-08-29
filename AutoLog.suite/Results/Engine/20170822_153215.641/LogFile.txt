@@ -1,0 +1,13 @@
+﻿2017-08-22 15:32:15.648 +0100	START		Running Engine.script	17	on_kickoff	KickOff.script
+2017-08-22 15:32:15.715 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-22 15:32:15.733 +0100	LogError		Unknown action: arg0	41	on_engine	Engine.script
+2017-08-22 15:32:15.773 +0100	LogError		Unknown action: Subject	41	on_engine	Engine.script
+2017-08-22 15:32:15.794 +0100	LogError		Unknown action: Date	41	on_engine	Engine.script
+2017-08-22 15:32:15.813 +0100	LogError		Unknown action: Author	41	on_engine	Engine.script
+2017-08-22 15:32:15.827 +0100	LogError		Unknown action: Verification by	41	on_engine	Engine.script
+2017-08-22 15:32:15.841 +0100	LogError		Unknown action: Counted test steps	41	on_engine	Engine.script
+2017-08-22 15:32:16.290 +0100	Log		Action [Start Application] completed.	82	on_entry	fReport.script
+2017-08-22 15:32:16.315 +0100	Log		AutoLog	8	on_tc01_aw_startapplication	TC01/AW_StartApplication.script
+2017-08-22 15:32:16.333 +0100	LogError		Unknown action: Start Application	41	on_engine	Engine.script
+2017-08-22 15:32:16.388 +0100	EndTestCase		(Duration:"0.736", Errors:"8", Exceptions:"0", StartTime:"2017-08-22 15:32:15 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	17	on_kickoff	KickOff.script
+2017-08-22 15:32:16.622 +0100	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'aw_selectautologdatabase' -- Execution Time 0:00:01 Engine.script	17	on_kickoff	KickOff.script

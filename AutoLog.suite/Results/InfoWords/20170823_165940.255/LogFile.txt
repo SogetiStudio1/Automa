@@ -1,0 +1,3 @@
+﻿2017-08-23 16:59:40.262 +0100	START		Running InfoWords.script
+2017-08-23 16:59:40.668 +0100	EndTestCase		(Duration:"0.4", Errors:"0", Exceptions:"0", StartTime:"2017-08-23 16:59:40 +0100", Successes:"1", TestCase:"InfoWords.script", Warnings:"0")
+2017-08-23 16:59:40.700 +0100	SUCCESS		Execution Time 0:00:00 InfoWords.script

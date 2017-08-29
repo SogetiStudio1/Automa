@@ -1,0 +1,10 @@
+﻿2017-08-22 15:27:18.454 +0100	START		Running Engine.script	17	on_kickoff	KickOff.script
+2017-08-22 15:27:18.502 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-22 15:27:18.514 +0100	LogError		Unknown action: arg0	41	on_engine	Engine.script
+2017-08-22 15:27:18.584 +0100	LogError		Unknown action: Subject	41	on_engine	Engine.script
+2017-08-22 15:27:18.598 +0100	LogError		Unknown action: Date	41	on_engine	Engine.script
+2017-08-22 15:27:18.610 +0100	LogError		Unknown action: Author	41	on_engine	Engine.script
+2017-08-22 15:27:18.626 +0100	LogError		Unknown action: Verification by	41	on_engine	Engine.script
+2017-08-22 15:27:18.643 +0100	LogError		Unknown action: Counted test steps	41	on_engine	Engine.script
+2017-08-22 15:27:18.896 +0100	EndTestCase		(Duration:"0.439", Errors:"7", Exceptions:"0", StartTime:"2017-08-22 15:27:18 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	17	on_kickoff	KickOff.script
+2017-08-22 15:27:19.119 +0100	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'aw_startapplication' -- Execution Time 0:00:00 Engine.script	17	on_kickoff	KickOff.script

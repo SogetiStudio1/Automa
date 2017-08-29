@@ -1,0 +1,113 @@
+﻿
+(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2017-08-24 16:56:27
+  Captured on:  2017-08-24 16:55:43
+  Created by: Ubon Nkim
+  From server:  Admin
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+
+
+//SetOption Scriptlogging, On 
+
+//set myFile to "C:\eggPlantABT\Data\TestScript_SBS.csv"
+
+put the defaultStringEncoding into origEncoding
+set the defaultStringEncoding to "ISOLatin1"
+
+Log "This is the start of the test"
+
+put 0 into aw_counter
+
+
+
+
+//Acess range of worksheet cells and creates list of lists 
+put Global Sheet1.cellRange("A", "F") into Global cellValue 
+
+Log "Result2:" & item 1 of item 1 of Global cellValue
+
+
+
+repeat with each line of Global cellValue
+	
+	//Test Action Word for the test management
+	if item 1 of item 9 of Global cellValue = "Test Case" then InfoWords.IW_TestCase
+	if item 2 of item 26 of Global cellValue  = "Test Case" then InfoWords.IW_Section
+	if item 1 of item 9 of Global cellValue  = "Reference" then InfoWords.IW_Reference
+	
+	
+	//Business Action Word for the test flow/steps
+	if item 1 of item 12 of Global cellValue = "Start Application" then run "TC01/AW_StartApplication"
+	if item 1 of item 16 of Global cellValue = "Select AutoLog Database" then  run "TC01/AW_SelectAutoLogDatabase"	
+	if item 1 of item 20 of Global cellValue = "Verify Homescreen" then  run "TC01/AW_VerifyHomeScreen"
+	//if item 1 of item 30 of Global cellValue = "Open Station Log" then  run "TC01/AW_OpenStationLog"
+	//if item 1 of item 34 of Global cellValue = "Verify Selected Log" then  run "TC01/AW_VerifySelectLog"
+	
+	
+	//Call screenshot handler of fUtility Script
+	run fUtility.CaptureTheScreenshot  "DontSave", 2
+	
+	
+	
+	
+	
+	
+	//put CaptureTheScreenshot ("errorString", e) into myScreenCapture
+	//CaptureTheScreenshot "errorString", e
+	
+	//Log "Result3:" & item 2 of item 20 of Global Arguments
+	
+	
+	(*put Global sheet1.cellRange("12") into  Global cellValue1
+
+
+
+
+repeat with Global Arguments = each line of Global cellValue1
+	
+	Log "Result1:"  &  Global cellValue1
+	
+	//Business Action Word for the test flow/steps
+	
+	
+	if item 2 of Global Arguments = "AutoLog" then run "TC01/AW_StartApplication"
+	
+	
+	Log "Result2:" & item 2 of Global Arguments*)
+	
+	
+	
+	
+	(*end repeat*)
+	
+	(*if item 1 of Global Arguments = "Start Application" then run "TC01/AW_StartApplication"
+	if item 1 of Global Arguments = "Select AutoLog Database" then  run "TC01/AW_SelectAutoLogDatabase"	
+	if item 1 of Global Arguments = "Verify Homescreen" then  run "TC01/AW_VerifyHomeScreen"
+	if item 1 of Global Arguments = "Open Station Log" then  run "TC01/AW_OpenStationLog"
+	if item 1 of Global Arguments = "Verify Selected Log" then  run "TC01/AW_VerifySelectLog"
+	*)
+	
+	(*//Test Action Word for the test management
+	if item 1 of item 9 of Global cellValue = "Test Case" then InfoWords.IW_TestCase
+	if item 2 of item 26 of Global cellValue  = "Test Case" then InfoWords.IW_Section
+	if item 1 of item 9 of Global cellValue  = "Reference" then InfoWords.IW_Reference*)
+	
+	
+	if item 1 of item 10 of  Global cellValue = "" Then
+		put "ignore" into Global sStatusAction // blank actions are to be ignored
+	end if
+	
+	
+	if Global sStatusAction = "completed" then
+		put 1 plus aw_counter into aw_counter
+		LogSuccess "Action "& aw_counter &" - [" & item 1 of item 10 of Global cellValue & "] completed."
+	else if Global sStatusAction = "ignore" Then
+		// blank actions are to be ignored
+	else
+		LogError "Unknown action: " & item 1 of Global cellValue	
+	end if
+	
+	put "reset" into Global sStatusAction     //resetting the status so that on the next pass it can be asserted again
+	
+end repeat

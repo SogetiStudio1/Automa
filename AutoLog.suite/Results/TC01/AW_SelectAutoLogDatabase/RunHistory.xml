@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="AW_SelectAutoLogDatabase">
+ <run>
+  <RunDate>2017-08-22 14:44:07.732 +0100</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.554000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20170822_144407.732/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STFileException -- Attempt to access unopened file: </ErrorMessage>
+ </run>
+</runHistory>

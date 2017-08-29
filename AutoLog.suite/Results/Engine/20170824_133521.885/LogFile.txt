@@ -1,0 +1,6 @@
+﻿2017-08-24 13:35:21.890 +0100	START		Running Engine.script	39	on_kickoff	KickOff.script
+2017-08-24 13:35:21.933 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-24 13:35:21.942 +0100	Log		Result2:arg0	18	on_engine	Engine.script
+2017-08-24 13:35:22.239 +0100	Log		Action [Start Application] completed.	82	on_entry	fReport.script
+2017-08-24 13:35:22.289 +0100	EndTestCase		(Duration:"0.395", Errors:"1", Exceptions:"0", StartTime:"2017-08-24 13:35:21 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	39	on_kickoff	KickOff.script
+2017-08-24 13:35:22.313 +0100	FAILURE		SenseTalk Compiler Exception in screenshot:\nSyntax Error at line 24: Syntax Error - can't understand "Screenshot" at or near character 475 -- Execution Time 0:00:01 Engine.script	39	on_kickoff	KickOff.script

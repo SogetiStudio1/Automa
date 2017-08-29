@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Engine.script" package="AutoLog.suite" timestamp="2017-08-23 14:17:43.776 +0100"
+ tests="1" successes="0" errors="2" time="0.146000">
+  <properties>
+   <property name="RunDate" value="2017-08-23 14:17:43.776 +0100"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Engine.script" assertions="2" successes="0" errors="2" time="0.136">
+    <failure type="LogError">Unknown action: arg0</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

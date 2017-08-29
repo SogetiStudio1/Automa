@@ -1,0 +1,4 @@
+﻿2017-08-22 13:40:41.790 +0100	START		Running Engine.script
+2017-08-22 13:40:41.900 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-22 13:40:42.020 +0100	EndTestCase		(Duration:"0.227", Errors:"0", Exceptions:"0", StartTime:"2017-08-22 13:40:41 +0100", Successes:"1", TestCase:"Engine.script", Warnings:"0")
+2017-08-22 13:40:42.141 +0100	SUCCESS		Execution Time 0:00:01 Engine.script

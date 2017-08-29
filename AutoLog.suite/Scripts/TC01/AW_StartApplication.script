@@ -1,0 +1,34 @@
+﻿put "incomplete" into Global sStatusAction
+fReport.Entry "AW", item 1 of item 12 of Global cellValue
+//put fUtility.Screenshot() into newScreenShot
+
+
+//Step 1: Select the windows menu	
+
+
+
+
+//Step 2: Type in the [Arg 1]
+
+
+
+//Type [Enter] to confirm the application
+
+
+
+//Check if the application's first screen appears
+
+
+
+Log  item 1 of item 12 of Global cellValue
+
+put "Test Case" into Global ActualArg
+
+if Global ActualArg = item 1 of item 20 of Global cellValue
+	
+	fReport.Entry "PASS", "Actual: ["&Global ActualArg&"] as expected."
+Else
+	fReport.Entry "FAIL", "Actual: ["&Global ActualArg&"] while we expected: ["&item 2 of item 20 of Global cellValue&"]"
+end if
+
+

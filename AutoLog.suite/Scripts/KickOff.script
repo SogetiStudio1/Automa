@@ -1,0 +1,54 @@
+﻿
+(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2017-08-24 16:56:27
+  Captured on:  2017-08-24 16:55:43
+  From server:  Admin
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+
+//To read and write to AutoLog.xlsx 
+set Global sTSwkbook to workbook(ResourcePath("AutoLog.xlsx"))
+
+//Access the test script worksheet 
+Set Global Sheet1 to worksheet (ResourcePath("AutoLog.xlsx"), 1)
+
+
+Put "C:\EDF_eggPlant\Report.html" into Global sReportFile
+
+Put "nothing" into Global sStatusAW
+
+//create and open an global report file
+create file Global sReportFile
+
+open file Global sReportFile
+
+fReport.OpenTestReport "VenzTitle"
+
+RunWithNewResults "Engine"
+
+//fReport.CloseTestReport Global sTSFile
+
+fReport.CloseTestReport Global sTSwkbook
+
+
+close all files
+
+
+
+
+// this script allows us to run the 
+//Put "D:\Users\ubnkim\Documents\eggPlant Test - EDF\AutoLog TS01 - Select Station Log.csv" into Global sTSFile
+//Put "C:\EDF_eggPlant\AutoLog.xlsx" into Global sTSFile
+//set Global sTSFile to (type: "excel", file: "C:\EDF_eggPlant\AutoLog.xlsx", writable: Yes)
+
+//put (type: "excel", file: "C:\EDF_eggPlant\AutoLog.xlsx", writable: Yes) into Global sTSFile
+
+//Set worksheet1 to worksheet ((ResourcePath("AW_SBS1.xlsx")), 1)
+
+(*log "data:" & Global sTSFile
+
+Set Global Sheet1 to worksheet (ResourcePath("AutoLog.xlsx"), 1)
+
+put Global Sheet1.cellRange("A", "F") into Global cellValue*)
+
+(*log "data:" & Global cellValue*)

@@ -1,0 +1,6 @@
+﻿2017-08-23 13:17:44.913 +0100	START		Running Engine.script	42	on_kickoff	KickOff.script
+2017-08-23 13:17:44.957 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-23 13:17:44.991 +0100	Log		Result1:(list:((arg0),(Reference),(Subject),(Date),(Author),(Verification by),(Counted test steps),(),(Test Case),(),(),(Start Application),(),(),(),(Select AutoLog Database),(),(),(),(Verify Homescreen),(),(),(),(),(),(Test Case),(),(),(),(Open Station Log),(),(),(),(Verify Selected Log),(),(),(),(),(),(Test Case),(),(),(),(Open Station Log),(),(),(),(Verify Selected Log),(),(),(),(),(),(Test Case),(),(),(),(Select AutoLog Report),(),(),(),(Verify Message),(),(),(),(),(),(Test Case),(),(),(),(Select ShiftNotes),(),(),(),(Verify Homescreen),(),(),(),(),(),(),(),(),(Stop Application),(),(),(Stop Application)))	22	on_engine	Engine.script
+2017-08-23 13:17:45.002 +0100	LogError		Unknown action: (list:((arg0)	79	on_engine	Engine.script
+2017-08-23 13:17:45.008 +0100	EndTestCase		(Duration:"0.09", Errors:"1", Exceptions:"0", StartTime:"2017-08-23 13:17:44 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	42	on_kickoff	KickOff.script
+2017-08-23 13:17:45.036 +0100	FAILURE		Script Error Number of Errors logged: 1 -- Execution Time 0:00:01 Engine.script	42	on_kickoff	KickOff.script

@@ -1,0 +1,15 @@
+﻿2017-08-22 14:26:35.752 +0100	START		Running Engine.script	17	on_kickoff	KickOff.script
+2017-08-22 14:26:35.808 +0100	Log		This is the start of the test	8	on_engine	Engine.script
+2017-08-22 14:26:35.829 +0100	LogError		Unknown action: arg0	41	on_engine	Engine.script
+2017-08-22 14:26:35.878 +0100	LogError		Unknown action: Subject	41	on_engine	Engine.script
+2017-08-22 14:26:35.896 +0100	LogError		Unknown action: Date	41	on_engine	Engine.script
+2017-08-22 14:26:35.909 +0100	LogError		Unknown action: Author	41	on_engine	Engine.script
+2017-08-22 14:26:35.921 +0100	LogError		Unknown action: Verification by	41	on_engine	Engine.script
+2017-08-22 14:26:35.932 +0100	LogError		Unknown action: Counted test steps	41	on_engine	Engine.script
+2017-08-22 14:26:36.235 +0100	Log		Action [Start Application - AutoLog] completed.	82	on_entry	fReport.script
+2017-08-22 14:26:36.259 +0100	Log		AutoLog	4	on_aw_startapplication	AW_StartApplication.script
+2017-08-22 14:26:36.277 +0100	LogError		Unknown action: Start Application	41	on_engine	Engine.script
+2017-08-22 14:26:36.341 +0100	LogError		Unknown action: Select AutoLog Database	41	on_engine	Engine.script
+2017-08-22 14:26:36.409 +0100	LogError		Unknown action: Verify Homescreen	41	on_engine	Engine.script
+2017-08-22 14:26:36.699 +0100	EndTestCase		(Duration:"0.944", Errors:"10", Exceptions:"0", StartTime:"2017-08-22 14:26:35 +0100", Successes:"0", TestCase:"Engine.script", Warnings:"0")	17	on_kickoff	KickOff.script
+2017-08-22 14:26:36.919 +0100	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Command: 'aw_openstationlog' -- Execution Time 0:00:01 Engine.script	17	on_kickoff	KickOff.script

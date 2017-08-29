@@ -1,0 +1,47 @@
+﻿
+(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2017-08-24 16:56:27
+  Captured on:  2017-08-24 16:55:43
+  Created by: 
+  From server:  Admin
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+
+//Specific for AutoLog application	
+
+
+put "incomplete" into Global sStatusAction
+fReport.Entry "AW", item 1 of item 16 of Global cellValue // & " - " & item 2 of Global cellValue 
+
+//Step 1: Press the button to select the database that you want to connect to....
+
+
+//Step 2: Press the button to select the location that you want to connect to....
+
+
+//Step 3: Verify that the location appears in the top of the logon window
+
+
+//Step 4: Enter the username
+
+
+
+//Step 5: Enter the password
+
+
+//Step 6: Press the login button
+
+
+//Step 7: Press the Guest button
+
+
+//Step 8: Check if the AutoLog main screen appears
+
+
+
+
+
+Log item 1 of item 16 of Global cellValue
+
+
+put "completed" into Global sStatusAction

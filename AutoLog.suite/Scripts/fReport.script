@@ -1,0 +1,316 @@
+﻿// The following functions are available from this script
+//  OpenTestReport
+// CloseTestReport
+// Entry
+
+//===========================================================================================================
+// Create the HTML header of the report
+On OpenTestReport sTitle
+	Log "This will be the header of report with the title: ["& sTitle & "]"
+	
+	write "<html>" & return to file Global sReportFile
+	write "<head><title>Test Run Report - " & sTitle & "</title></head>" & return to file Global sReportFile
+	
+	write "<body>" & return to file Global sReportFile
+	write "<hr>" & return to file Global sReportFile
+	
+	write "<table border=""0"" width=""100%"">" & return to file Global sReportFile  // Title Banner in Header
+	write " <tr>" & return to file Global sReportFile
+	write " <td width=""20%"" valign=""centre"" align=""left""><img border=""0"" src=""" & s_Logo1 & """></td>" & return to file Global sReportFile
+	write " <td width=""60%"" valign=""centre"" align=""centre""><p align=""center""><font face=""Comic Sans MS"" size=""5""><b><i>Test Report</i></b></font></p></td>" & return to file Global sReportFile
+	write " <td width=""20%"" valign=""centre"" align=""right""><img border=""0"" src=""" & s_Logo2 & """></td>" & return to file Global sReportFile
+	write "</table>" & return to file Global sReportFile
+	
+	write "<hr>" & return to file Global sReportFile // ' Dividing line
+	write "<table border=""0"" width=""100%"">" & return to file Global sReportFile // Initialise header summary table
+	write " <td width=""30%"" align=""right""><b><i>Report File </b></i></td>" & return to file Global sReportFile
+	write " <td width=""70%"">" & gs_FullResultFolder & gs_ReportName & "</td>" & return to file Global sReportFile
+	write " </tr>" & return to file Global sReportFile
+	write " <tr>" & return to file Global sReportFile
+	write " <td width=""30%"" align=""right""><b><i>Start Test Run </b></i></td>" & return to file Global sReportFile
+	//write " <td width=""70%"">" & f_GetCurrentDateTime("") & "</td>" & return to file Global sReportFile
+	write " <td width=""70%"">" & "[Current Date Time will need to be added here]" & "</td>" & return to file Global sReportFile
+	write " </tr>" & return to file Global sReportFile
+	write " <tr>" & return to file Global sReportFile
+	write " <td width=""30%"" align=""right""><b><i>Number of test lines in DataSheet </b></i></td>" & return to file Global sReportFile
+	write " <td width=""70%"">" & gs_out_rows_count & "</td>" & return to file Global sReportFile
+	write " </tr>" & return to file Global sReportFile
+	write "</table>" & return to file Global sReportFile   // end of header table
+	write "<hr>" & return to file Global sReportFile   // dividing line
+	write "<table border=""0"" width=""100%"">" & return to file Global sReportFile  //Initialise report table
+	
+End OpenTestReport
+
+//===========================================================================================================
+// Create the summary at the bottom of the report and add the closing statement of the HTML report
+On CloseTestReport s_TSName
+	//s_TSName was used before to make sure that we have had the link to the data sheet or test scenarion in the summary for reference
+	Log "This will be the closing footer and summary with the some parameter passing through: ["& s_TSName & "]"
+	
+	// write "" & return to file Global sReportFile
+	//s_TestEndTime = Now ' Return current system time and date.
+	
+	// s_TestEndTime
+	// gs_TestStartTime
+	// gs_out_rows_count
+	put 0 into gi_pass_count
+	put 0 into gi_fail_count
+	// gs_failures_at_checkpoint
+	// gi_warn_count
+	
+	write "</table>" & return to file Global sReportFile    //End code for table used to enter messages
+	write "</details>" & return to file Global sReportFile    //End tag for closing a collapeable section
+	write "<hr>" & return to file Global sReportFile    //dividing line
+	write "<table border=""0"" width=""100%"">" & return to file Global sReportFile    //Initialise footer summary table
+	write " <tr>" & return to file Global sReportFile
+	write " <td width=""30%"" align=""right""><b><i>Data Sheet Name </b></i></td>" & return to file Global sReportFile
+	write " <td width=""70%"">" & s_TSName & "</td>" & return to file Global sReportFile
+	write " </tr>" & return to file Global sReportFile
+	write " <tr>" & return to file Global sReportFile
+	write " <td width=""30%"" align=""right""><b><i>End Test Run </b></i></td>" & return to file Global sReportFile
+	write " <td width=""70%"">" & s_TestEndTime & "</td>" & return to file Global sReportFile
+	write " </tr>" & return to file Global sReportFile
+	write " <tr>" & return to file Global sReportFile
+	write " <td width=""30%"" align=""right""><b><i>Total Test Execution Time </b></i></td>" & return to file Global sReportFile
+	//write " <td width=""70%"">" & f_ConvertSerialTime (s_TestEndTime - gs_TestStartTime) & "</td>" & return to file Global sReportFile
+	write " <td width=""70%"">" & "[The converted run time needs to be inserted here!]" & "</td>" & return to file Global sReportFile
+	write " </tr>" & return to file Global sReportFile
+	write " <tr>" & return to file Global sReportFile
+	write " <td width=""30%"" align=""right""><b><i>Number of test lines in DataSheet </b></i></td>" & return to file Global sReportFile
+	write " <td width=""70%"">" & gs_out_rows_count & "</td>" & return to file Global sReportFile
+	write " </tr>" & return to file Global sReportFile
+	If gi_pass_count + gi_fail_count > 0 Then //' if there are no checks, there is no need for check summary 
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""30%"" align=""right""><b><i>Number of verifications Passed </b></i></td>" & return to file Global sReportFile
+		write " <td width=""70%""><font color=""#008000"">" & gi_pass_count & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""30%"" align=""right""><b><i>Number of verifications Failed </b></i></td>" & return to file Global sReportFile
+		write " <td width=""70%""><font color=""#FF0000"">" & gi_fail_count & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		If gs_failures_at_checkpoint <> "" Then
+			write " <tr>" & return to file Global sReportFile
+			write " <td width=""30%"" align=""right""><b><i>Failed verifications (row # in data script): </b></i></td>" & return to file Global sReportFile
+			write " <td width=""70%""><font color=""#FF0000"">" & Left(gs_failures_at_checkpoint, Len(gs_failures_at_checkpoint)) & "</font></td>" & return to file Global sReportFile
+			write " </tr>" & return to file Global sReportFile
+		End If
+		//' g_RoundingOneDecimal (i_perc_checks_passed) ' to avoid long numbers beyond the decimal point
+		
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""30%"" align=""right""><b><i>Percentage of verifications Passed </b></i></td>" & return to file Global sReportFile
+		write " <td width=""70%"">" & Round((gi_pass_count / (gi_pass_count + gi_fail_count))*100, 1) & "%</td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+	Else
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""30%"" align=""right""></td>" & return to file Global sReportFile
+		write " <td width=""70%""><i>There were NO verifications during this test!</i></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+	End If
+	
+	If gi_warn_count > 0 Then //' display the number of warning encountered during this test run (if more then zero)
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""30%"" align=""right""><b><i>Number of warnings during this test </b></i></td>" & return to file Global sReportFile
+		write " <td width=""70%""><font color=""#FF9900"">"& gi_warn_count &"</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+	Else
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""30%"" align=""right""></td>" & return to file Global sReportFile
+		write " <td width=""70%""><i>There were NO warnings during this test!</i></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+	End If
+	
+	write "</table>" & return to file Global sReportFile
+	write "<hr>" & return to file Global sReportFile
+	write "</body>" & return to file Global sReportFile
+	write "</html>" & return to file Global sReportFile
+	
+	
+End CloseTestReport
+
+//===========================================================================================================
+// Generic reporting entry in various different layout to should reporting methodologies
+On Entry sCodeMode, sReportText
+
+	put "plain" into sEntryStatus    // setting the status to plain and let the mode change it to catch unknown modes
+	
+	// write "" & return to file Global sReportFile
+	
+	//Case "SECTION" ' text in bold, italics and underlined
+	If sCodeMode ="SECTION"
+		write " <tr><td width=""10%""></td><td width=""90%""> </td></tr>" & return to file Global sReportFile
+		write " </table>" & return to file Global sReportFile
+		write " <DIV class=test>Section <SPAN class=pass><u><i>" & sReportText &  "</u></i></SPAN>  <font size=""1""><i>(Data row: " & gi_dt_row_focus & " started at: " & s_CurrentTime & ")</i></font></td></DIV><DIV class=expanderBodyClosed>" & return to file Global sReportFile
+		write "" & return to file Global sReportFile
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "MSG" ' (see also default) plain text
+	If sCodeMode ="MSG"
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%""></td>" & return to file Global sReportFile
+		write " <td width=""90%""><font size=""2"">" & sReportText & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "NOTE" ' small italic text in blue
+	If sCodeMode ="NOTE"
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%""></td>" & return to file Global sReportFile
+		write " <td width=""90%""><font size=""1""><i><font color=""#0000FE"">" & sReportText & "</i></font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "TC" ' 1st cell white text on red background and black text on gray background
+	If sCodeMode ="TC"
+		//s_CurrentTime = Time
+		//gi_number_of_testcases = gi_number_of_testcases + 1		
+		
+		write " </table>" & return to file Global sReportFile
+		write " </details><details>" & return to file Global sReportFile
+		write " <summary><style=""color:black"">" & sReportText & "</style> - <font size=1><i>(Data row: " & gi_dt_row_focus & " started at: " & s_CurrentTime & ")</i></font></summary>" & return to file Global sReportFile
+		write " <table border=0 width=100%>" & return to file Global sReportFile
+		
+		put "completed" into sEntryStatus
+		
+	End If
+	
+	//Case "CHECK" ' plain text (includes the sequence number of checks)   -   not yet needed
+	
+	//Case "INFO" ' yellow highlighted text 
+	If sCodeMode ="INFO"
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%""><p align=""right""><font size=""1""><i>Info </i></font></td>" & return to file Global sReportFile
+		write " <td width=""90%"">" & sReportText & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		//Reporter.ReportEvent micDone,"Message",sReportText
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "HEADER" ' Light Green highlighted text 
+	If sCodeMode ="HEADER"
+	(*)If instr(sReportText,";") Then
+		as_AWtext = split(sReportText, ";" & return to file Global sReportFile
+		For i = 1 To ubound(as_AWtext)
+		s_text = s_text & as_AWtext(i)
+		Next
+	End If*)
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%""><p align=""right""><b>" & item 1 of Global Arguments & "</font></b></td>" & return to file Global sReportFile
+		write " <td width=""90%"" bgcolor=""#B5EAAA"">" & sReportText & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "AW" ' black bold underlined 
+	If sCodeMode ="AW"
+		write " <p><tr>" & return to file Global sReportFile
+		write " <td width=""10%"" align=""right""><font size=""2""></font></td>" & return to file Global sReportFile //' "Action "
+		write " <td width=""90%""><font size=""2""><u><b>" & sReportText & "</b></u></font></td>" & return to file Global sReportFile
+		write " </tr></p>" & return to file Global sReportFile
+		//Reporter.ReportEvent micDone, "Action Word",
+		Log  "Action ["& sReportText &"] completed."
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "PASS" ' Pass in green and bold and plain text
+	If sCodeMode ="PASS"
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%"" align=""right""><font color=""#008000""><b>PASS </b></font></td>" & return to file Global sReportFile
+		write " <td width=""90%""><font size=""2"">Data row " & gi_dt_row_focus & " - " & sReportText & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		//gi_pass_count = gi_pass_count + 1
+		//gi_total_pass_count = gi_total_pass_count + 1
+		//Reporter.ReportEvent micPass, "Passed Verification", sReportText
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "FAIL" ' fail in red and bold and plain text
+	If sCodeMode ="FAIL"
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%"" align=""right""><font color=""#FF0000""><b>FAIL </b></font></td>" & return to file Global sReportFile   //' Red bold sReportText
+		write " <td width=""90%""><font size=""2"">Data row " & gi_dt_row_focus & " - " & sReportText & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		//gi_fail_count = gi_fail_count + 1
+		
+		(*If gs_failures_at_checkpoint = "" Then
+		gs_failures_at_checkpoint = gi_dt_row_focus
+		Else
+		gs_failures_at_checkpoint = gs_failures_at_checkpoint & " - " & gi_dt_row_focus
+	End If*)
+		//gi_total_fail_count = gi_total_fail_count + 1
+		//Reporter.ReportEvent micFail, "Failed Verification", sReportText
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "WARN" ' warning in orange and plain sReportText
+	If sCodeMode ="WARN"
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%"" align=""right""><font color=""#FF9900""><b>WARNING </b></font></td>" & return to file Global sReportFile   // ' Red bold text
+		write " <td width=""90%""><font size=""2"">Data row " & gi_dt_row_focus & " - " & sReportText & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		//gi_warn_count = gi_warn_count + 1
+		//gi_total_warn_count = gi_total_warn_count + 1
+		//Reporter.ReportEvent micWarning, "Warning", sReportText
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "ERROR" ' Error in red and bold and plain text
+	If sCodeMode ="ERROR"
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%"" align=""right""><font color=""#FF0000""><b>ERROR </b></font></td>" & return to file Global sReportFile   // ' Red bold text
+		write " <td width=""90%"">" & sReportText & "</td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "FATAL" ' white text and red backgroungd and plain text 
+	If sCodeMode ="FATAL"
+		write " <tr><td width=""10%""></td><td width=""90%""> </td></tr>" & return to file Global sReportFile   // ' Emtpy line
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%"" bgcolor=""#FF0000""><p align=""right""><b><font color=""#FFFFFF""><b>Fatal Error </b></font></b></td>" & return to file Global sReportFile
+		write " <td width=""90%"">" & sReportText & "</td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		write " <tr><td width=""10%""></td><td width=""90%""> </td></tr>" & return to file Global sReportFile   // ' Emtpy line
+		//gb_engine_dead_mens_handle = True
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "CLUSTER" ' plain text - this functionality is not yet coded within the framework
+	
+	//Case Else: ' plain text
+	If sEntryStatus ="plain"
+		Log "Code Mode was not found ["& sCodeMode & "] To putting it down in plain text - " & sReportText
+		write " <tr>" & return to file Global sReportFile
+		write " <td width=""10%""></td>" & return to file Global sReportFile
+		write " <td width=""90%""><font size=""2"">" & sReportText & "</font></td>" & return to file Global sReportFile
+		write " </tr>" & return to file Global sReportFile
+		put "completed" into sEntryStatus
+	End If
+	
+	//Case "CHECK" ' plain text (includes the sequence number of checks)
+	//write " <tr>" & return to file Global sReportFile
+	//write " <td width=""10%"" align=""right""><font size=""2"">Check # " & gi_dt_row_focus & "</font></td>" & return to file Global sReportFile
+	//write " <td width=""90%""><font size=""2"">" & sReportText & "</font></td>" & return to file Global sReportFile
+	//write " </tr>" & return to file Global sReportFile
+	
+	//Case "CLUSTER" ' plain text
+	//write " <tr>" & return to file Global sReportFile
+	//write " <td width=""10%"" align=""right""><b>Datasheet MSG</b></td>" & return to file Global sReportFile
+	//write " <td width=""90%"">" & sReportText & "</td>" & return to file Global sReportFile
+	//write " </tr>" & return to file Global sReportFile
+	
+End Entry
+
+
+
+// #### The following functions are not yet created but can be of use if the framework is expanded with new functionality ####
+
+//Function OpenSummaryReport (sTitle, as_ExecList)
+//Function CloseSummaryReport ()
+//Function CreateTestRunSummaryCluster (s_DSName, s_DSLoc)
+//Function CreatePerformanceSummary()
+//Function TestReportVerify (code_mode, s_reportexp, s_reportact)
+//Function f_ChangeStatusLastHeader (sFile, sStatus)
+//Function F_ColourCodeVerifyString (s_InExp, s_InAct)
